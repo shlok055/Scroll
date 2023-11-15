@@ -1,0 +1,68 @@
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  .input-label {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 6px;
+    margin-left: 6px;
+  }
+  
+  .input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 4px;
+    transition: border-color 0.3s;
+  }
+  
+  .input-field:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .lgn-btn {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color */
+    width: 135px;
+    height: 45px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 15px;
+  }
+  
+  .lgn-btn:hover {
+    background-color: #0056b3; /* Hover state background color */
+    transform: scale(1.05); /* Zoom in slightly on hover */
+  }
+
+  .lnk {
+    display: block;
+    width: 135px;
+    height: 45px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 15px;
+    text-decoration: none;
+  }
+
+  .lnk:hover {
+    background-color: #3e7b8a; /* Hover state background color */
+    transform: scale(1.05); /* Zoom in slightly on hover */
+  }

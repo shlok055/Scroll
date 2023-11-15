@@ -1,0 +1,106 @@
+
+
+.header-container {
+    padding: 10px 15px;
+    background-color: #002f3408;
+    border-bottom: 3px solid #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+}
+
+.cat-container {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+    padding: 8px 20px;
+
+}
+
+.menu {
+    margin-left: 15px;
+}
+
+
+.search {
+    margin-left: 20px;
+    margin-top: 10px;
+    outline: none;
+    padding-left: 10px;
+    width: 250px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.search-btn {
+    height: 41px;
+    background-color: #007b89;
+    color: #fff;
+    border-radius: 0px 24px 24px 0px;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    padding: 0px 15px;
+    font-size: larger;
+}
+
+.logout-btn {
+    margin-top: 10px;
+    background-color: #007b89;;
+    color: #fff;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 1px 25px;
+    margin-right: 10px;
+    margin-left: 2px;
+}
+
+.sell-btn {
+    height: 40px;
+    margin-top: 10px;
+    background-color: #34002d;
+    color: #fff;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    padding: 1px 19px;
+    margin-right: 10px;
+    margin-left: 2px;
+}
+
+.category {
+    color: rgba(0, 47, 52, 1);
+    padding: 7px;
+    cursor: pointer;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #007b89;
+    border-radius: 50%;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.link {
+    border: none;
+    text-decoration: none;
+    font-size: 17px;
+    color: #002f34;
+    margin-left: 5px;
+    font-weight: bold;
+    background-color: #007b89;
+}
+
+.drop {
+    width: 200px;
+    background-color: #007b89;
+    position: absolute;
+    margin-top: 5px;
+    margin-right: 50px;
+    cursor: pointer;
+}
